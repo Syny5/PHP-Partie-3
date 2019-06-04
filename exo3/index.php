@@ -28,10 +28,10 @@
           <!-- main -->
           <main>
             <?php
-            $secondNumber = 65;
-            for ($firstNumber = 100 ; $firstNumber >= 10 ; $firstNumber--){
-              echo '<p>' . $firstNumber * $secondNumber . '</p>';
-            }
+              $secondNumber = 65; // J'initialise ma valeur
+              for ($firstNumber = 100 ; $firstNumber >= 10 ; $firstNumber--){ // On initalise la deuxième valeur et on lui informe que tant qu'elle est inférieure à 20, elle doit se décrémenter
+                echo '<p>' . $firstNumber * $secondNumber . '</p>'; // On affiche la multiplication de nos deux variables, avec les balises 'p' pour aller à la ligne à chaque fois.
+              }
             ?>
           </main>
           <!-- footer -->

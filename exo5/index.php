@@ -23,9 +23,9 @@
           <!-- main -->
           <main>
             <?php
-            for ($i = 1; $i > 15; $i++){
-              echo '<p>' . $i . '. On y arrive presque.</p>';
-            }
+              for ($i = 1; $i > 15; $i++){
+                echo '<p>' . $i . '. On y arrive presque.</p>';
+              }
             ?>
           </main>
           <!-- footer -->
@@ -33,7 +33,7 @@
 
           </footer>
       </div>
-      <!-- scripts JQuery, Popper, Angular et Bootstrap-->
+      <!-- scripts JQuery, Popper, Angular et Bootstrap -->
       <script src="assets/js/jquery-3.4.0.min.js"></script>
       <script src="assets/js/popper.min.js"></script>
       <script src="assets/js/bootstrap.min.js"></script>

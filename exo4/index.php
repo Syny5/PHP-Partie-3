@@ -27,9 +27,9 @@
           <!-- main -->
           <main>
             <?php
-            for($i = 1 ; $i < 10 ; $i=$i+$i/2){
-              echo '<p>' . $i . '</p>';
-            }
+              for($i = 1 ; $i < 10 ; $i=$i+$i/2){ // On initialise la valeur de la variable i, et on lui informe que tant que cette dernière ne dépasse pas 10, elle gagne la moitié de sa valeur
+                echo '<p>' . $i . '</p>'; // On l'affiche.
+              }
             ?>
           </main>
           <!-- footer -->

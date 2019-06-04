@@ -27,13 +27,13 @@
           <!-- main -->
           <main>
             <?php
-            $repetitions = 0; // J'initialise ma boucle
+              $repetitions = 0; // J'initialise ma boucle
 
-            while($repetions < 10){
-              echo '<p>Sale petit malotru.</p>';
-              $repetions++;
-            }
-            // Je lui dis "Tant que tu n'atteins pas 10, répète l'action. J'obtiens ainsi ce texte 10 fois."
+              while($repetions < 10){
+                echo '<p>Sale petit malotru.</p>';
+                $repetions++;
+              }
+              // Je lui dis "Tant que tu n'atteins pas 10, répète l'action. J'obtiens ainsi ce texte 10 fois."
             ?>
           </main>
           <!-- footer -->

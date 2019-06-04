@@ -16,7 +16,7 @@
             <div class="jumbotron jumbotron-fluid">
               <div class="container">
                 <h1 class="display-3">Partie 3 - Exercice 7</h1>
-                <p class="lead">En allant de 1 à 100 avec un pas de 15, afficher le message On tient le bon bout.</p>
+                <p class="lead">En allant de 1 à 100 avec un pas de 15, afficher le message "On tient le bon bout".</p>
               </div>
             </div>
           </header>
@@ -24,7 +24,7 @@
           <main>
             <?php
             for ($i = 1; $i <= 100; $i = $i+15){
-              echo '<p>' . $i . '. C\'est presque bon.</p>';
+              echo '<p>' . $i . '. On tient le bon bout.</p>';
             }
             ?>
           </main>
